@@ -1,0 +1,20 @@
+.header{
+	text-align:center;
+	padding: 20px;
+	margin: 0 600px 0 600px;
+	background-color:#87CEEB;
+	border: solid;
+	
+}
+.f{
+	text-align:center;
+	margin: 5px 600px 0 600px;
+	background-color:#87CEEB;
+	border:solid;
+	
+}
+
+.t {
+  margin-left: auto;
+  margin-right: auto;
+}
