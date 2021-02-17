@@ -5,6 +5,8 @@ body{
 
 }
 
+
+
 .header{
 	text-align:center;
 	background-color: aquamarine;
@@ -39,4 +41,8 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: aquamarine;
+}
+
+.videoBox{
+    text-align: left;
 }
