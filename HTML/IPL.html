@@ -2,21 +2,6 @@
 <html>
     <head>
         <link rel="stylesheet" href="/C:\Users\Training\Documents\GitHub\WEB-DEVELOPMENT\HTML\IPL.css">
-        <script>
-                var x = document.getElementById("demo");
-                function getLocation() {
-                  if (navigator.geolocation) {
-                    navigator.geolocation.getCurrentPosition(showPosition);
-                  } else {
-                    x.innerHTML = "Geolocation is not supported by this browser.";
-                  }
-                }
-                
-                function showPosition(position) {
-                  x.innerHTML = "Latitude: " + position.coords.latitude +
-                  "<br>Longitude: " + position.coords.longitude;
-                }
-                </script>
     </head>
     <body>
         <div class="header">
@@ -29,7 +14,7 @@
 			<li><a href = "IPL.html">Home</a></li>
 			<li><a href = "summary.html">Summary</a></li>
 			<li><a href = "table.html">Points Table</a></li>
-            <li><a href = "PTable.html"  onclick="getLocation()">Contact us</a></li>
+            <li><a href = "PTable.html">Contact us</a></li>
 			</ul>
 	    
             <div id="videoBox" class="box">
