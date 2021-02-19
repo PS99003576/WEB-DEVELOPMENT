@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Player Details</h2>
+        <form action="/action_page.php" style="align-items: center;">
+            <table >
+                <div class="form-group">
+                    <tr>
+                        <td>
+                            <label for="name" style="align-items: left;">Name:</label>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                </div>
+
+                <div class="form-group">
+                    <tr>
+                        <td>
+                            <label for="DOB" style="align-items: left;">DOB:</label>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <input type="date" class="form-control" id="date" placeholder="DD/MM/YYYY" name="date"
+                                style="text-align: center;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                </div>
+
+                <div class="form-group">
+                    <tr>
+                        <td>
+                            <label for="age" style="align-items: left;">Age:</label>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <input type="text" class="form-control" id="age" placeholder="Enter Age" name="age"
+                                style="text-align: center;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                </div>
+
+                <div class="form-group">
+                    <tr>
+                        <td>
+                            <label for="email" style="align-items: left;">Email:</label>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email"
+                                style="text-align: center;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                </div>
+
+
+
+                <div class="form-group">
+                    <tr>
+                        <td>
+                            <label for="sel1" style="align-items: left;">Country:</label>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <select class="form-control" id="sel1">
+                                <option>Country</option>
+                                <option>India</option>
+                                <option>Japan</option>
+                                <option>UAE</option>
+                                <option>USA</option>
+                                <option>Russia</option>
+                                <option>Iraq</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                </div>
+
+                <div class="form-group">
+                    <tr>
+                        <td>
+                            <label for="" style="align-items: left;">Skills</label>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <label class="checkbox-inline">
+                                <input type="checkbox" value="">Batting
+                            </label>
+                            <label class="checkbox-inline">
+                                <input type="checkbox" value="">Bowling
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                </div>
+
+                <div class="form-group">
+                    <tr>
+                        <td>
+                            <label for="" style="align-items: left;">Bat Style</label>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <label class="radio-inline">
+                                <input type="radio" name="optradio" checked>Right Handed
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="optradio">Left Handed
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                </div>
+
+
+            </table>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

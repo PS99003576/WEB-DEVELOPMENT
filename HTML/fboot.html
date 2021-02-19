@@ -1,0 +1,155 @@
+<!Doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---<link rel="stylesheet" href="file:///C:/Users/Training/Documents/GitHub/WEB-DEVELOPMENT/HTML/form.css">--->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Player Details</h1>
+    </div>
+
+    <div class="f">
+        <form>
+            <table class="t" border='0' width='480px' cellpadding='0' cellspacing='0'>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="color: #708090;"><i>Name<superscript style="color: red;">*</superscript></i></td>
+                    <td><input type="text" id="fname" name="fname" placeholder="Enter your name" style="width: 200px;"
+                            autofocus><br></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td style="color: #708090;"><i>DOB<superscript style="color: red;">*</superscript></i></td>
+                    <td><input type="text" id="fdate" name="fdate" pattern=\d{1,2}/\d{1,2}/\d{4 placeholder="DD/MM/YYYY"
+                            style="width: 200px;"><br></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td style="color: #708090;"><i>Age<superscript style="color: red;">*</superscript></i></td>
+                    <td><input type="text" id="fage" name="fage" placeholder="Enter your age" style="width: 200px;"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td style="color: #708090;"><i>Email Id<superscript style="color: red;">*</superscript></i></td>
+                    <td><input type="email" id="femail" name="femail" placeholder="abc123@xyz.com"
+                            style="width: 200px;"><br></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td style="color: #708090;"><i>Country<superscript style="color: red;">*</superscript></i></td>
+                    <td><select name="fcountry" id="fcountry" style="width: 205px;height: 22px;">
+                            <option value="India">India</option>
+                            <option value="America">America</option>
+                            <option value="Japan">Japan</option>
+                            <option value="UAE">UAE</option>
+                        </select><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td style="color: #708090;"><i>Skill<superscript style="color: red;">*</superscript></i></td>
+                    <td><input type="checkbox" id="Batting" name="Batting" value="Batting">
+                        <label for="Batting">Batting</label>
+                        <input type="checkbox" id="Bowling" name="Bowling" value="Bowling">
+                        <label for="Bowling">Bowling</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+
+                <td style="color: #708090;"><i>Bat Style</i></td>
+                <td><input type="radio" id="Batstyle" name="Bastyle" value="Batstyle">
+                    <label for="Batstyle">Left Handed</label>
+                    <input type="radio" id="Bowlstyle" name="Bastyle" value="Bowlstyle">
+                    <label for="Bowlstyle">Right Handed</label>
+                </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+
+                <td style="color: #708090;"><i>Bowl Style</i></td>
+                <td><input type="radio" id="Batstyle" name="Bwstyle" value="Batstyle">Left Handed
+                    <input type="radio" id="Bowlstyle" name="Bwstyle" value="Bowlstyle">Right Handed
+                </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td align='center' style="color: #708090;"><i>Matches<superscript style="color: red;">*
+                            </superscript></i></td>
+                    <td><input type="text" id="fmatches" name="fmatches" placeholder="matches Played"
+                            style="width: 200px;"><br></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td align='center' style="color: #708090;"><i>Runs<superscript style="color: red;">*</superscript>
+                            </i></td>
+                    <td><input type="text" id="fruns" name="fruns" placeholder="Total Runs Scored"
+                            style="width: 200px;"><br></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td align='center' style="color: #708090;"><i>Wickets<i>
+                                <superscript style="color: red;">*</superscript>
+                            </i></td>
+                    <td><input type="text" id="fwickets" name="fwickets" placeholder="Wickets"
+                            style="width: 200px;"><br></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td style="color: #708090;"><i>Achievements</i></td>
+                    <td align='center'><textarea id="Achievements" name="Achievements" rows="4" cols="27"
+                            placeholder="Your achievements in cricket"></textarea></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <div class="footer">
+
+        <button style="width: 100px; height: 30px; border-radius: 7px;">Submit</button>
+        <input type="reset" value="Reset" style="width: 100px; height: 30px; border-radius: 7px;">
+
+</body>
+
+</html>
