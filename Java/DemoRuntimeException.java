@@ -16,6 +16,7 @@ public class DemoRuntimeException {
 		/*
 		 * int [] arr=new int[2]; arr[3]=30; System.out.println(arr[3]); String
 		 * s="roshan"; int i=Integer.parseInt(s); System.out.println(i);
+		 
 		 */
 		
 		// TODO Auto-generated method stub

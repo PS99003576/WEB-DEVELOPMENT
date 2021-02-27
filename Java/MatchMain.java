@@ -27,7 +27,7 @@ public class MatchMain {
 			
 			System.out.println("Requirements:");
 			
-			t.display(rr, balls);
+			//t.display(rr, balls);
 			
 			
 			
