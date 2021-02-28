@@ -1,12 +1,18 @@
 import java.util.*;
 
+
 class Factorial{
 
     void digit_Factorial(int array_number){
         if (array_number == 0 || array_number == 1)
             System.out.println(1);
         else{
-            return array_number*digit_Factorial(array_number-1);
+            int fact = 1;
+            for(int i = 1; i<=array_number;i++){
+                fact = fact * i;
+                
+            }
+            System.out.println(fact);
         }
         
     }
